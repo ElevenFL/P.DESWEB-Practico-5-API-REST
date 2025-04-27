@@ -1,0 +1,19 @@
+1. Diferencias entre REST y microservicios:
+
+REST es una forma de diseñar APIs (cómo acceder a recursos).
+Microservicios es una forma de construir toda la aplicación en partes pequeñas, independientes.
+REST puede estar dentro de un monolito o dentro de microservicios. Microservicios son más complejos, pero más escalables.
+
+2. Desafíos al dividir en microservicios:
+
+Separar correctamente la lógica de negocio en servicios distintos.
+Manejar comunicación entre servicios (más lenta y puede fallar).
+Coordinar datos sin perder consistencia.
+Aumenta la complejidad en despliegues, monitoreo y seguridad.
+
+3. Ventajas de microservicios sobre una API REST monolítica:
+
+Escalan de manera independiente (no todo junto).
+Permiten que los equipos trabajen y desplieguen de forma autónoma.
+Son más resistentes a fallos.
+Dan flexibilidad para usar distintas tecnologías según cada necesidad.
